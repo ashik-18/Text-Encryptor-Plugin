@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="org.eclipse.ui.views">
+      <category
+         name="Text Encryptor Views"
+         id="textencryptor.category"/>
+      <view
+            name="Encrypt View"
+            class="textencryptor.views.EncryptView"
+            category="textencryptor.category"
+            id="textencryptor.views.EncryptView"/>
+      <view
+            name="Decrypt View"
+            class="textencryptor.views.DecryptView"
+            category="textencryptor.category"
+            id="textencryptor.views.DecryptView"/>
+   </extension>
+</plugin>
+
+
+

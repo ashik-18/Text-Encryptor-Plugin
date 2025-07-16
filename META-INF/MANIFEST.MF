@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TextEncryptorPlugin
+Bundle-SymbolicName: TextEncryptorPlugin;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: 
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.swt,
+ jakarta.annotation-api;bundle-version="2.1.1",
+ org.eclipse.e4.ui.di;bundle-version="1.5.600",
+ org.eclipse.core.runtime;bundle-version="3.33.100"
+Bundle-RequiredExecutionEnvironment: JavaSE-21
